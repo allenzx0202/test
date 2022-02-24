@@ -26,7 +26,7 @@ Stack.prototype.length = function () {
     return this.size
 }
 
-var stack = new Stack();
+const stack = new Stack();
 stack.push(1)
 stack.push(2)
 stack.push(3)
