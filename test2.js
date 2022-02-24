@@ -32,5 +32,5 @@ stack.push(2)
 stack.push(3)
 console.log(
     stack.pop(),
-    stack.length()
+    stack.length() //因不確定為何不能使用size命名，所以使用length取代size
 )
